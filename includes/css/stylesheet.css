@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* centered */
+#wrapper {
+    margin: 0 auto;
+}
+
+nav, aside, section,article, header,footer, main{
+    display: block;
+}
+
+
+ body {
+   margin: 0;
+   padding: 0;
+   background-image: url("http://shenkar.html5-book.co.il/2018-2019/web1/dev_68/exercises/ex4/images/batpic2.svg");
+   background-repeat: repeat;
+   background-position: center;
+   background-attachment:fixed; 
+   background-size: cover;
+   color: yellow;
+ }
+
+
+ form {
+    visibility: visible ;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 30px;
+}
+
+ .submit:hover {
+    background:yellow;
+}
+.submit {
+    cursor: pointer;
+    display: block;
+    background: #50b25b;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    color: black;
+    border: 0;
+    width: 215px;
+    margin: 10px auto 0;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
